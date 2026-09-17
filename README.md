@@ -1,22 +1,18 @@
 # CSCE 462 – Microcomputer Systems
 
-Lab work from CSCE 462-500 (Microcomputer Systems) at Texas A&M University.
+Lab work from CSCE 462-500 (Microcomputer Systems) at Texas A&M University. Each lab
+folder contains the lab instructions, the submitted lab report, and the implementation code.
+See each folder's own README for a detailed description.
 
-## Contents
+## Labs
 
-### Lab1/
-- `Csce 462-500 _ Lab Report 1 _ Group 1 - Segun.docx.pdf` — Lab 1 report
-- `Csce462-500_Group1_Lab1_polling.py` — Lab 1 polling implementation
-- `Csce462-500_Group1_Lab1_interrupt.py` — Lab 1 interrupt-driven implementation
-
-### Lab2/
-- `Segun's Copy of Csce 462-500 _ Lab Report 2 _ Group 1.docx.pdf` — Lab 2 report
-
-### Lab3/
-- `Csce 462-500 _ Lab Report 3 _ Group 1 - Segun.docx.pdf` — Lab 3 report
-- `lab3.py` — Lab 3 implementation
-- `oscilloscope_polling.py` — Oscilloscope polling code
-
-### Lab4/
-- `Csce 462-500 _ Lab Report 4 _ Group 1 - Segun Oluwole.pdf` — Lab 4 report
-- `gyro_cleaned_full.py` — Lab 4 gyroscope implementation
+- [`Lab1/`](Lab1) — **GPIO Input/Output.** A two-way traffic-light system built with the
+  Raspberry Pi's GPIO, driven by a push button and implemented with both polling and
+  interrupts.
+- [`Lab2/`](Lab2) — **Digital to Analog Converter (DAC).** A button-driven function
+  generator that outputs square, sine, and triangle waves through an MCP4725 DAC.
+- [`Lab3/`](Lab3) — **Analog to Digital Converter (ADC).** A software oscilloscope that
+  samples an analog signal through an MCP3008 ADC, classifies its waveform shape, and
+  computes its frequency.
+- [`Lab4/`](Lab4) — **Inertial Measurement Units (IMU).** A pedometer that reads
+  accelerometer data from an MPU6050 IMU and counts steps in real time.
